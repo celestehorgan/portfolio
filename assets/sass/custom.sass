@@ -2,6 +2,7 @@
 @charset "utf-8"
 
 {{ $extraColors := site.Params.colors.extra }}
+
 {{ $fontAwesomeVersion := site.Params.font_awesome_version }}
 {{ $fonts := site.Params.fonts }}
 
@@ -10,22 +11,7 @@
 @import url("{{ $fontAwesomeUrl }}")
 {{ end }}
 
-// {{ if $fonts }}
-// {{ $fontSlice := (slice) }}
-// {{ range $fonts }}
-// {{ $fontSlice = $fontSlice | append (printf "%s:%s" (replace .name " " "+") (delimit .sizes ",")) }}
-// {{ end }}
-// {{ $fontsUrl := printf "https://fonts.googleapis.com/css?family=%s" (delimit $fontSlice "|") }}
-// @import url("{{ $fontsUrl }}")
-// {{ end }}
-
-@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=93a83ce3-4244-4166-9676-4428a2916200&fontids=6297061")
-@font-face 
-    font-family: "Futura"
-    src: url("Fonts/6297061/390fe385-74ea-48fa-9e26-c13aa7485fa6.woff2") format("woff2"), url("Fonts/6297061/0f729499-dcfa-4bb1-be58-540d90b909a0.woff") format("woff")
-    font-weight: normal
-    font-style: normal
-
+@import "fonts"
 
 // Required
 @import "bootstrap/scss/functions" 
@@ -72,6 +58,11 @@
 // Custom
 
 $font-family-headers: "Futura" 
+
+body 
+  font-family: "iA Writer Duospace"
+  font-weight: normal
+  font-style: normal
 
 .breadcrumb 
   li
