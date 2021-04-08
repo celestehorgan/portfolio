@@ -1,6 +1,7 @@
-title = "Hugo Netlify Starter"
+title = "celeste.works"
+baseUrl = "https://celeste.works"
 disableKinds = ["taxonomy", "taxonomyTerm"]
-copyright = "Cloud Native Computing Foundation"
+copyright = "Celeste Horgan"
 
 enableGitInfo = true
 
@@ -9,19 +10,35 @@ style = "paraiso-dark"
 
 [params]
 font_awesome_version = "5.12.0"
-description = "Boilerplate for building beautiful websites"
-favicon = "favicon.png"
-repositoryUrl = "https://github.com/cncf/hugo-netlify-starter"
+repositoryUrl = "https://github.com/celestehorgan/portfolio"
 contentDir = "/content/"
 
 [params.logos]
-navbar = "cncf-color.png"
+# navbar = "cncf-color.png"
 
 [[params.social]]
 name = "Twitter"
-color = "#00aced"
-url = "https://twitter.com/CloudNativeFdn"
+color = "#9D9D9D"
+url = "https://twitter.com/celeste_horgan"
 icon = "fab fa-twitter"
+
+[[params.social]]
+name = "GitHub"
+color = "#9D9D9D"
+url = "https://github.com/celestehorgan/"
+icon = "fab fa-github"
+
+[[params.social]]
+name = "LinkedIn"
+color = "#9D9D9D"
+url = "https://www.linkedin.com/in/celeste-horgan-b65b5a1a/"
+icon = "fab fa-linkedin"
+
+[[params.social]]
+name = "Email"
+color = "#9D9D9D"
+url = "mailto:hello@celeste.works"
+icon = "fas fa-envelope"
 
 [[params.fonts]]
 name = "Fira Sans"
@@ -38,17 +55,7 @@ name = "Fire Sans"
 sizes = [100, 200, 300, 400, 500, 600, 700]
 type = "heading_font"
 
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "Test Content"
-url = "/test-content/"
-weight = 2
-
-[[menu.main]]
-name = "Theme Documentation"
-url = "#"
-weight = 3
+# [[menu.main]]
+# name = "Home"
+# url = "/"
+# weight = 1
