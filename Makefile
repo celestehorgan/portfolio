@@ -12,7 +12,6 @@ production-build:
 		--minify
 
 preview-build:
-	yarn
 	hugo \
 		--baseURL $(DEPLOY_PRIME_URL) \
 		--buildDrafts \
