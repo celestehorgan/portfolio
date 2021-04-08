@@ -8,10 +8,12 @@ serve: yarn
 		--disableFastRender
 
 production-build:
+	npm install
 	hugo \
 		--minify
 
 preview-build:
+	npm install 
 	hugo \
 		--baseURL $(DEPLOY_PRIME_URL) \
 		--buildDrafts \
