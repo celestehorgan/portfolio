@@ -19,4 +19,4 @@ preview-build:
 		--minify
 
 open:
-	open https://celeste-works.netlify.com
+	open https://cncf-hugo-starter.netlify.com

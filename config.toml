@@ -1,5 +1,4 @@
-title = "celeste.works"
-baseUrl = "https://celeste.works"
+title = "Parsec"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 enableGitInfo = true
