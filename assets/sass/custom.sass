@@ -59,8 +59,19 @@
 
 $font-family-headers: "Futura" 
 
+@mixin iaw-bolditalic
+  font-family: "iA Writer Duospace"
+  font-weight: bold 
+  font-style: italic
+
+@mixin iaw-italic 
+  font-family: "iA Writer Duospace"
+  font-weight: normal 
+  font-style: italic
+
 body 
   font-family: "iA Writer Duospace"
+  font-size: 0.875rem // 14px
   font-weight: normal
   font-style: normal
 
@@ -96,3 +107,54 @@ nav
     padding-left: 0
     ul
       padding-left: 1.5rem
+
+
+// navbar.html 
+
+.nav-title
+  font-size: 1.75rem
+  color: #9D9D9D !important
+  &:hover 
+    text-decoration: none
+  .blue 
+    color: #00FFF0 !important
+  h1 
+    margin-top: 0px
+
+.navbar-item > .btn 
+  padding: 0 3px 0 0
+
+.icon 
+  color: #9D9D9D
+
+// index.html 
+
+.lead 
+  font-family: $font-family-headers
+  font-size: 3rem
+
+.lede 
+  padding-top: 6.25rem
+  padding-bottom: 6.25rem
+
+// shortcodes/affiliations.html 
+
+.section 
+  border-top: 12px solid #FB45FF
+  h1 
+    font-size: 1.5rem
+    margin-bottom: 3.125rem
+    margin-top: 1.125rem
+
+.org 
+  margin-bottom: 6.25rem
+  .name 
+    @include iaw-bolditalic
+    font-size: 1.125rem 
+    margin-bottom: 0
+  .title 
+    @include iaw-italic 
+    font-size: 1.125rem
+    margin-bottom: 0
+  .since 
+    @include iaw-italic 

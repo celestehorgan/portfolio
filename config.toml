@@ -9,6 +9,7 @@ enableGitInfo = true
 style = "paraiso-dark"
 
 [params]
+description = "Celeste Horgan is a writer, <br/> speaker and designer."
 font_awesome_version = "5.12.0"
 repositoryUrl = "https://github.com/celestehorgan/portfolio"
 contentDir = "/content/"

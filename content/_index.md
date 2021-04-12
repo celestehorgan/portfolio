@@ -1,5 +1,4 @@
 ---
 title: "celeste.works"
 ---
-
-nya
+{{< affiliations >}}
