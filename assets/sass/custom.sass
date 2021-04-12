@@ -71,7 +71,7 @@ $font-family-headers: "Futura"
 
 body 
   font-family: "iA Writer Duospace"
-  font-size: 0.875rem // 14px
+  // font-size: 0.875rem // 14px
   font-weight: normal
   font-style: normal
 
@@ -113,7 +113,7 @@ nav
 
 .nav-title
   font-size: 1.75rem
-  color: #9D9D9D !important
+  color: #000000 !important
   &:hover 
     text-decoration: none
   .blue 
@@ -123,9 +123,6 @@ nav
 
 .navbar-item > .btn 
   padding: 0 3px 0 0
-
-.icon 
-  color: #9D9D9D
 
 // index.html 
 
@@ -148,13 +145,21 @@ nav
 
 .org 
   margin-bottom: 6.25rem
-  .name 
-    @include iaw-bolditalic
-    font-size: 1.125rem 
-    margin-bottom: 0
-  .title 
-    @include iaw-italic 
-    font-size: 1.125rem
-    margin-bottom: 0
-  .since 
-    @include iaw-italic 
+
+.name 
+  @include iaw-bolditalic
+  font-size: 1.125rem 
+  margin-bottom: 0
+
+.title 
+  @include iaw-italic 
+  font-size: 0.875rem
+  margin-bottom: 0
+  
+.since 
+  @include iaw-italic 
+  font-size: 0.875rem
+
+.novid 
+  width: 560px 
+  height: 315px

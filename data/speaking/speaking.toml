@@ -1,0 +1,20 @@
+[[talk]]
+name = "What's in a Name? A WG Naming Deep Dive"
+url = "https://www.youtube.com/watch?v=zoiZNjjc69g"
+id = "zoiZNjjc69g"
+where = "KubeCon/CloudNativeCon North America 2020"
+description = """WG Naming was formed in June 2020 as a direct response to the 
+Black Lives Matter protests occurring across America. Its goal is to remove harmful and 
+unclear language in the Kubernetes project as completely as possible, and to do so in a way 
+hat is portable to other CNCF projects. """
+
+[[talk]]
+name = "Writing for Developers: take your project docs to the next level"
+url = "#"
+where = "KubeCon/CloudNativeCon EU 2021"
+description = """As maintainers know, when choosing an open source project to use in production, great documentation and community support are key. Yet they often struggle with creating and maintaining documentation because of lack of time and skill. 
+This talk, delivered by one of CNCF’s full-time technical writers, will teach you how to approach writing for developers. 
+We’ll go over deciding what to write, thinking about documentation from a user’s perspective, and what makes great writing.
+ We’ll walk through improving an existing page of documentation on an actual CNCF project, as well as how to draft new feature 
+ documentation from scratch. This talk is aimed at developers who would like to write better, 
+ and folks considering a career switch into technical writing."""
