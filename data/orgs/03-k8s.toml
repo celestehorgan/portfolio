@@ -1,5 +1,6 @@
 
 name = "Kubernetes"
+url = "https://kubernetes.io"
 description = """I am heavily involved in the Kubernetes community as a result of my 
 work with the Linux Foundation. I have been an approver for SIG Docs since June 2020, 
 founded the naming working group, and currently serve as a member of the 

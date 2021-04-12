@@ -3,7 +3,7 @@
 {{ range $.Site.Data.orgs }}
    <div class="{{ .name }} org row">
        <div class="col col-12 col-xl-4">
-        <p class="name">{{ .name }}</p>
+        <a href="{{ .url }}" class="name" target="_blank">{{ .name }}</a>
         
         {{ range .title }} 
         <p class="title">{{ .title }}</p>
