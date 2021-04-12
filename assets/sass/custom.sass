@@ -59,8 +59,27 @@
 
 $font-family-headers: "Futura" 
 
+@mixin iaw-bolditalic
+  font-family: "iA Writer Duospace"
+  font-weight: bold 
+  font-style: italic
+
+@mixin iaw-italic 
+  font-family: "iA Writer Duospace"
+  font-weight: normal 
+  font-style: italic
+
+@mixin transition
+  -webkit-transition: all 0.5s ease-in-out
+  -moz-transition: all 0.5s ease-in-out
+  -ms-transition: all 0.5s ease-in-out
+  -o-transition: all 0.5s ease-in-out
+  transition: all 0.5s ease-in-out
+
+
 body 
   font-family: "iA Writer Duospace"
+  // font-size: 0.875rem // 14px
   font-weight: normal
   font-style: normal
 
@@ -96,3 +115,68 @@ nav
     padding-left: 0
     ul
       padding-left: 1.5rem
+
+a
+  color: #000000 !important 
+  border-bottom: 6px solid rgba(0,255,240,0)
+  &:hover 
+    text-decoration: none
+    border-bottom: 6px solid rgba(0,255,240,1)
+    @include transition
+
+// navbar.html 
+
+.nav-title
+  font-size: 1.75rem
+  &:hover 
+    text-decoration: none
+  .blue 
+    color: #00FFF0 !important
+    &:hover 
+      color: #FB45FF
+  h1 
+    margin-top: 0px
+
+.navbar-item > .btn 
+  padding: 0 3px 0 0
+
+
+// index.html 
+
+.lead 
+  font-family: $font-family-headers
+  font-size: 3rem
+
+.lede 
+  padding-top: 6.25rem
+  padding-bottom: 6.25rem
+
+// shortcodes/affiliations.html 
+
+.section 
+  border-top: 12px solid #FB45FF
+  h1 
+    font-size: 1.5rem
+    margin-bottom: 3.125rem
+    margin-top: 1.125rem
+
+.org 
+  margin-bottom: 6.25rem
+
+.name 
+  @include iaw-bolditalic
+  font-size: 1.125rem 
+  margin-bottom: 0
+
+.title 
+  @include iaw-italic 
+  font-size: 0.875rem
+  margin-bottom: 0
+
+.since 
+  @include iaw-italic 
+  font-size: 0.875rem
+
+.novid 
+  width: 560px 
+  height: 315px

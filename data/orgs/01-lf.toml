@@ -1,0 +1,12 @@
+name = "Linux Foundation"
+url = "https://linuxfoundation.org"
+description ="""I currently work at the Linux Foundation as a Senior Technical Writer on 
+Cloud Native Computing Foundation projects. 
+
+My work includes mentoring projects on technical writing best practices, 
+leading office hour sessions, mentoring new writers into the cloud native community, 
+writing documentation and giving talks on documentation to the community.""" 
+
+[[ title ]]
+title = "Senior Technical Writer"
+since = "January 2020"

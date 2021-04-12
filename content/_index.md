@@ -1,5 +1,6 @@
 ---
 title: "celeste.works"
 ---
+{{< affiliations >}}
 
-nya
+{{< speaking >}}

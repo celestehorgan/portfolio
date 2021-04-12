@@ -1,15 +1,14 @@
 {{ $title := site.Title }}
 {{ $desc  := site.Params.description | markdownify }}
-<section class="jumbotron">
-  <div class="container">
-    <h1>
-      {{ $title }}
-    </h1>
 
-    {{ with $desc }}
-    <p class="lead">
-      {{ . }}
-    </p>
-    {{ end }}
+<div class="container">
+  <div class="row lede">
+    <div class="col col-12">
+      {{ with $desc }}
+      <p class="lead">
+        {{ . }}
+      </p>
+      {{ end }}
+    </div>
   </div>
-</section>
+</div>
