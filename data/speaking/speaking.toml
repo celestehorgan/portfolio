@@ -10,7 +10,8 @@ hat is portable to other CNCF projects. """
 
 [[talk]]
 name = "Writing for Developers: take your project docs to the next level"
-url = "#"
+url = "https://youtu.be/vz_5EdhHrmI"
+id = "vz_5EdhHrmI"
 slides = "/slides/kccnc-eu-2021.pdf"
 where = "KubeCon/CloudNativeCon EU 2021"
 description = """As maintainers know, when choosing an open source project to use in production, great documentation and community support are key. Yet they often struggle with creating and maintaining documentation because of lack of time and skill. 
