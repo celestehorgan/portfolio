@@ -1,12 +1,19 @@
 name = "Linux Foundation"
 url = "https://linuxfoundation.org"
-description ="""I currently work at the Linux Foundation as a Senior Technical Writer on 
-Cloud Native Computing Foundation projects. 
+description ="""I currently work at the Linux Foundation as a Staff Technical Writer on 
+Cloud Native Computing Foundation projects.
 
-My work includes mentoring projects on technical writing best practices, 
-leading office hour sessions, mentoring new writers into the cloud native community, 
-writing documentation and giving talks on documentation to the community.""" 
+In addition to writing documentation, and designing/developing project websites, I mentor projects on documentation best practices, 
+run [Techdocs Office Hours](https://github.com/cncf/techdocs#office-hours), 
+scoped the [services we offer projects](https://github.com/cncf/techdocs/blob/main/services.md), 
+and scaled our team using [docs assessments](https://github.com/cncf/techdocs/tree/main/assessments).
+
+"""
+ 
+[[ title ]]
+title = "Staff Technical Writer"
+since = "June 2021 -"
 
 [[ title ]]
 title = "Senior Technical Writer"
-since = "January 2020"
+since = "January 2020 - June 2021"
