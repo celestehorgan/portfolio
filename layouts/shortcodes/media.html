@@ -1,0 +1,13 @@
+<div class="section">
+<h1>Media</h1>
+{{ range $.Site.Data.media }}
+   <div class="{{ .name }} org row">
+      {{ range .media }}
+      <div class="col col-12 col-xl-12 pb-5">
+         <a href="{{ .url }}" class="name" target="_blank">{{ .media_name }}: {{ .title }}</a>
+         <p class="title">{{ .date }} ·  by {{ .media_author }} </p>
+      </div>
+      {{ end }}
+   </div>
+{{ end }}
+</div>

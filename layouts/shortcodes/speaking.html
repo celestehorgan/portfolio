@@ -1,5 +1,5 @@
 <div class="section">
-<h1>Speaking</h1>
+<h1>Recorded talks</h1>
 {{ range $.Site.Data.speaking }}
    <div class="row">
        {{ range .talk }}
@@ -12,8 +12,7 @@
                 </div>
             {{ end }}
             <a href="{{ .url }}" target="_blank" class="name">{{ .name }}</a>
-            <p class="since">{{ .where }}</p> 
-            <a href="{{ .slides }}" target="_blank" class="name">Slides</a>
+            <p class="since">{{ .where }} · <a href="{{ .slides }}" target="_blank">Slides</a>
         </div>
         {{ end }}
    </div>

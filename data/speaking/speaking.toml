@@ -1,16 +1,6 @@
 [[talk]]
-name = "What's in a Name? A WG Naming Deep Dive"
-url = "https://www.youtube.com/watch?v=zoiZNjjc69g"
-id = "zoiZNjjc69g"
-where = "KubeCon/CloudNativeCon North America 2020"
-description = """WG Naming was formed in June 2020 as a direct response to the 
-Black Lives Matter protests occurring across America. Its goal is to remove harmful and 
-unclear language in the Kubernetes project as completely as possible, and to do so in a way 
-hat is portable to other CNCF projects. """
-
-[[talk]]
 name = "Writing for Developers: take your project docs to the next level"
-url = "https://youtu.be/vz_5EdhHrmI"
+url = "https://www.youtube.com/watch?v=vz_5EdhHrmI"
 id = "vz_5EdhHrmI"
 slides = "/slides/kccnc-eu-2021.pdf"
 where = "KubeCon/CloudNativeCon EU 2021"
@@ -20,3 +10,21 @@ We’ll go over deciding what to write, thinking about documentation from a user
  We’ll walk through improving an existing page of documentation on an actual CNCF project, as well as how to draft new feature 
  documentation from scratch. This talk is aimed at developers who would like to write better, 
  and folks considering a career switch into technical writing."""
+
+[[talk]]
+name = "What's in a Name? A WG Naming Deep Dive"
+url = "https://www.youtube.com/watch?v=zoiZNjjc69g"
+slides = ""
+id = "zoiZNjjc69g"
+where = "KubeCon/CloudNativeCon North America 2020"
+description = """WG Naming was formed in June 2020 as a direct response to the 
+Black Lives Matter protests occurring across America. Its goal is to remove harmful and 
+unclear language in the Kubernetes project as completely as possible, and to do so in a way 
+hat is portable to other CNCF projects. """
+
+[[talk]]
+name = "Intro to Kubernetes Docs"
+url = "https://youtu.be/watch?v=pprMgmNzDcw"
+id = "pprMgmNzDcw"
+where = "KubeCon/CloudNativeCon North America 2020"
+description = """An overview of Kubernetes SIG Docs. Presented with Tim Bannister, Brad Topol and Irvi Aini."""

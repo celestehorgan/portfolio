@@ -2,17 +2,17 @@
 <h1>Affiliations</h1>
 {{ range $.Site.Data.orgs }}
    <div class="{{ .name }} org row">
-       <div class="col col-12 col-xl-4">
-        <a href="{{ .url }}" class="name" target="_blank">{{ .name }}</a>
-        
-        {{ range .title }} 
-        <p class="title">{{ .title }}</p>
-        <p class="since">Since {{ .since }}</p>
-        {{ end }}
+      <div class="col col-12 col-xl-4">
+      <a href="{{ .url }}" class="name" target="_blank">{{ .name }}</a>
+      
+      {{ range .title }} 
+         <p class="title">{{ .title }}</p>
+         <p class="since">{{ .since }}</p>
+      {{ end }}
 
-        </div>
-        <div class="col description">{{ .description | markdownify }}
-        </div>
+      </div>
+      <div class="col description">{{ .description | markdownify }}
+      </div>
    </div>
 {{ end }}
 </div>
