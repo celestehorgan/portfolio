@@ -1,4 +1,13 @@
 [[talk]]
+name = "The Foundations of Community"
+url = "https://www.youtube.com/watch?v=F6gJxf7KZLc"
+id = "F6gJxf7KZLc"
+slides = "#"
+where = "Confidential Computing Developer Summit 2021"
+description = """
+Nothing you do matters unless people are involved. But the most important part of creating open source communities is your mindset as a maintainer and leader: understanding why community building, contributor on-ramping, and communication sets the stage for project success. This talk, delivered by seasoned CNCF open source community members Kat Cosgrove and Celeste Horgan, goes over actionable ways to attract and build a robust, active developer community around your open source project, and the mindset you need to develop to do so."""
+
+[[talk]]
 name = "Writing for Developers: take your project docs to the next level"
 url = "https://www.youtube.com/watch?v=vz_5EdhHrmI"
 id = "vz_5EdhHrmI"
@@ -14,7 +23,7 @@ We’ll go over deciding what to write, thinking about documentation from a user
 [[talk]]
 name = "What's in a Name? A WG Naming Deep Dive"
 url = "https://www.youtube.com/watch?v=zoiZNjjc69g"
-slides = ""
+slides = "#"
 id = "zoiZNjjc69g"
 where = "KubeCon/CloudNativeCon North America 2020"
 description = """WG Naming was formed in June 2020 as a direct response to the 
@@ -26,5 +35,6 @@ hat is portable to other CNCF projects. """
 name = "Intro to Kubernetes Docs"
 url = "https://youtu.be/watch?v=pprMgmNzDcw"
 id = "pprMgmNzDcw"
+slides="#"
 where = "KubeCon/CloudNativeCon North America 2020"
 description = """An overview of Kubernetes SIG Docs. Presented with Tim Bannister, Brad Topol and Irvi Aini."""
