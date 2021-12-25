@@ -9,8 +9,8 @@
   <div class="container">
     <div class="navbar-brand">
       <a class="navbar-item nav-title" href="{{ $home }}">
-        <h1>celeste<span class="blue">works</span></h1>
-      </a>
+        <h1>celeste.{{ if ne .Section "blog" }}<span class="blue">{{end}}works{{ if ne .Section "blog" }}</span>{{end}}</a>{{ if eq .Section "blog" }}<a href="/blog" class="navbar-item blue">:blog</a>{{ end }}
+      </h1>
     </div>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">

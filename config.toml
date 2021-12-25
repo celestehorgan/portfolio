@@ -14,6 +14,12 @@ font_awesome_version = "5.12.0"
 repositoryUrl = "https://github.com/celestehorgan/portfolio"
 contentDir = "/content/"
 
+# Metadata mostly used in document's head
+# 
+keywords = ""
+images = [""]
+
+
 [params.logos]
 # navbar = "cncf-color.png"
 
@@ -60,3 +66,12 @@ type = "heading_font"
 # name = "Home"
 # url = "/"
 # weight = 1
+
+
+
+[twitter]
+  card = "Celeste Horgan"
+  site = "{{ .Permalink }}"
+  title = "{{ .Title }}"
+  description = "{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary | plainify }}{{ end }}"
+  image = "/img/celeste-2021.png"

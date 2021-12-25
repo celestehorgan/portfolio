@@ -1,0 +1,23 @@
+{{ $posts := where site.RegularPages "Section" "blog" }}
+<div class="container post-list">
+  <div class="row">
+    {{ range (.Paginate $posts).Pages }}
+    {{ $date := dateFormat "Jan. 2, 2006" .Date }}
+    <div class="col col-lg-12 col-md-12 col-12">
+          <div>
+          <a href="{{ .RelPermalink }}">
+             <span class="name">{{ $date}}: {{ .Title }}</span>
+          </a>
+          </div>
+          <div>
+          {{ .Summary }}...
+          </div>
+    </div>
+    {{ end }}
+  </div>
+  <div class="row">
+    <div class="mx-auto pt-5">
+      {{ template "_internal/pagination.html" . }}  
+   </div>
+  </div>
+</div>
