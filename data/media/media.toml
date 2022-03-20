@@ -1,4 +1,36 @@
 [[media]]
+title = "Celeste Horgan"
+url = "https://kubecuddle.transistor.fm/episodes/celeste-horgan/transcript"
+media_name = "KubeCuddle"
+date = "February 28, 2022"
+media_author = "Rich Burroughs"
+affiliation = "n/a"
+
+[[media]]
+title = "The Value of Documentation"
+url = "https://youtu.be/KrW7dMraFbc"
+media_name = "Open Source in Business"
+date = "October 18, 2021"
+media_author = "Dave Neary"
+affiliation = "CNCF"
+
+[[media]]
+title = "Kubernetes Code of Conduct Committee"
+url = "https://youtu.be/VjNYP3WfUbY"
+media_name = "Cloudnative.tv"
+date = "October 18, 2021"
+media_author = "CNCF"
+affiliation = "Kubernetes"
+
+[[media]]
+title = "Inclusive Language with Priyanka Sharma & Celeste Horgan"
+url = "https://www.facebook.com/thenewstack/videos/4443429339026939/"
+media_name = "The New Stack"
+date = "September 28, 2021"
+media_author = "Alex Williams"
+affiliation = "Inclusive Naming Initiative"
+
+[[media]]
 title = "How enterprises are building inclusive language in code"
 url = "https://www.theserverside.com/feature/How-enterprises-are-building-inclusive-language-in-code"
 media_name = "The Server Side"

@@ -1,0 +1,7 @@
+name = "Stripe"
+url = "https://stripe.com"
+description ="""I just started! Give it some time to bake."""
+ 
+[[ title ]]
+title = "Staff Technical Writer"
+since = "February 2022 -"

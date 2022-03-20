@@ -1,0 +1,17 @@
+name = "Linux Foundation"
+url = "https://linuxfoundation.org"
+description ="""I worked at the Linux Foundation as a Staff Technical Writer on 
+Cloud Native Computing Foundation projects.
+
+I wrote documentation, designed/developed project websites, mentored projects on documentation best practices, 
+and ran [Techdocs Office Hours](https://github.com/cncf/techdocs#office-hours). 
+
+"""
+ 
+[[ title ]]
+title = "Staff Technical Writer"
+since = "June 2021 - January 2022"
+
+[[ title ]]
+title = "Senior Technical Writer"
+since = "January 2020 - June 2021"

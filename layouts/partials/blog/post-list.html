@@ -3,7 +3,7 @@
   <div class="row">
     {{ range (.Paginate $posts).Pages }}
     {{ $date := dateFormat "Jan. 2, 2006" .Date }}
-    <div class="col col-lg-12 col-md-12 col-12">
+    <div class="col col-lg-12 col-md-12 col-12 mb-5">
           <div>
           <a href="{{ .RelPermalink }}">
              <span class="name">{{ $date}}: {{ .Title }}</span>
