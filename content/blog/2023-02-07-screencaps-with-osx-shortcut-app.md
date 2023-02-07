@@ -33,11 +33,11 @@ Previously the best way to do this was to use the browser's Inspect/Dev tooling 
 
 First, open the **Shortcuts** app from the finder:
 
-[Mac OSX search dialog with "Shortcuts" as the search text. Select the Shortcuts app from the menu to open it.](images/2023-02-07/1-open-shortcuts.png)
+[Mac OSX search dialog with "Shortcuts" as the search text. Select the Shortcuts app from the menu to open it.](/blog/images/2023-02-07/1-open-shortcuts.png)
 
 Next, click the **+** icon to add a new shortcut: 
 
-[Screenshot highlighting the position of the + symbol in the Shortcut app. It is in the upper right in the app's toolbar area.](images/2023-02-07/2-add-new-shortcut.png)
+[Screenshot highlighting the position of the + symbol in the Shortcut app. It is in the upper right in the app's toolbar area.](/blog/images/2023-02-07/2-add-new-shortcut.png)
 
 Use the Search bar on the right and look for **Find Windows**.  Drag this into the area on the left. 
 
@@ -52,19 +52,19 @@ Name the Shortcut something meaningful, like Resize Window for Screenshot.
 
 Here's a quick animation of what how to do this, as Shortcuts is very visual: 
 
-[Screen recorded GIF of creating a shortcut with OSX. It's unfortunately a very visual tool.](images/2023-02-07/create-shortcut-osx.gif)
+[Screen recorded GIF of creating a shortcut with OSX. It's unfortunately a very visual tool.](/blog/images/2023-02-07/create-shortcut-osx.gif)
 
-I'm glaringly aware that this isn't the same aspect ratio as everything else in this article. It's 10:30pm and I can't convince my tools to compress a re-recorded at aspect ratio version to a reasonable size for the web. Maybe tomorrow?
+I'm glaringly aware that this isn't the same aspect ratio as everything else in this article. It's 10:30pm and I can't convince my tools to compress a re-recorded at aspect ratio version to a reasonable size for web. Maybe tomorrow?
 
 Optionally, make your shortcut available by pinning it to your Menu bar, setting it as a Quick action, or assigning a Keyboard shortcut **keep in mind that if you do this, you _need_ to set the Window rule to look for Index = 0!**: 
 
-[Screenshot highlighting the menu options for pinning the Shortcut to the OSX Menu Bar.](images/2023-02-07/3-pin-to-menu.png)
+[Screenshot highlighting the menu options for pinning the Shortcut to the OSX Menu Bar.](/blog/images/2023-02-07/3-pin-to-menu.png)
 
 And that's it! 
 
 Whenever you want to screenshot something, bring its window to the front, select it from either the Shortcuts app or the menu bar, then just use OSX's screenshot functionality!
 
-[An example screenshot taken at a 1024x768 aspect ratio. Look ma, no hands!](images/2023-02-07/example-screenshot-1.png)
+[An example screenshot taken at a 1024x768 aspect ratio. Look ma, no hands!](/blog/images/2023-02-07/example-screenshot-1.png)
 
 ## Getting rid of the shadow on command 
 
@@ -74,7 +74,7 @@ You can suppress this by using the **Cmd+Shift+5** option, selecting a window, a
 
 **This doesn't work when using Cmd+Shift+4**.
 
-[The same example but with no drop shadow](images/2023-02-07/example-screenshot-2.png)
+[The same example but with no drop shadow](/blog/images/2023-02-07/example-screenshot-2.png)
 
 ## What about no UI window? 
 
