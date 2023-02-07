@@ -33,13 +33,13 @@ Previously the best way to do this was to use the browser's Inspect/Dev tooling 
 
 ## Creating an OSX Shortcut to resize a window on demand
 
-First, open the **Shortcuts** app from the finder:
+First, open the **Shortcuts** app from the Finder:
 
 ![Mac OSX search dialog with "Shortcuts" as the search text. Select the Shortcuts app from the menu to open it.](/blog/images/2023-02-07/1-open-shortcuts.png)
 
 Next, click the **+** icon to add a new shortcut: 
 
-1[Screenshot highlighting the position of the + symbol in the Shortcut app. It is in the upper right in the app's toolbar area.](/blog/images/2023-02-07/2-add-new-shortcut.png)
+![Screenshot highlighting the position of the + symbol in the Shortcut app. It is in the upper right in the app's toolbar area.](/blog/images/2023-02-07/2-add-new-shortcut.png)
 
 Use the Search bar on the right and look for **Find Windows**.  Drag this into the area on the left. 
 
