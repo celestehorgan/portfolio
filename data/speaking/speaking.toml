@@ -1,3 +1,13 @@
+
+[[talk]]
+name = "OSS Docs and How to Scale Them: Common Themes from the CNCF Ecosystem"
+url = "https://www.youtube.com/watch?v=rYq93ovFgXY"
+id = "rYq93ovFgXY"
+slides = "#"
+where = "KubeCon + CloudNativeCon EU 2022"
+description = """
+Taking two years of experience from working as a technical writer in the CNCF Ecosystem, this talk goes through the common issues projects of certain sizes and maturities face, and how best to address them."""
+
 [[talk]]
 name = "The Foundations of Community"
 url = "https://www.youtube.com/watch?v=F6gJxf7KZLc"
@@ -12,7 +22,7 @@ name = "Writing for Developers: take your project docs to the next level"
 url = "https://www.youtube.com/watch?v=vz_5EdhHrmI"
 id = "vz_5EdhHrmI"
 slides = "/slides/kccnc-eu-2021.pdf"
-where = "KubeCon/CloudNativeCon EU 2021"
+where = "KubeCon + CloudNativeCon EU 2021"
 description = """As maintainers know, when choosing an open source project to use in production, great documentation and community support are key. Yet they often struggle with creating and maintaining documentation because of lack of time and skill. 
 This talk, delivered by one of CNCF’s full-time technical writers, will teach you how to approach writing for developers. 
 We’ll go over deciding what to write, thinking about documentation from a user’s perspective, and what makes great writing.
@@ -25,7 +35,7 @@ name = "What's in a Name? A WG Naming Deep Dive"
 url = "https://www.youtube.com/watch?v=zoiZNjjc69g"
 slides = "#"
 id = "zoiZNjjc69g"
-where = "KubeCon/CloudNativeCon North America 2020"
+where = "KubeCon + CloudNativeCon North America 2020"
 description = """WG Naming was formed in June 2020 as a direct response to the 
 Black Lives Matter protests occurring across America. Its goal is to remove harmful and 
 unclear language in the Kubernetes project as completely as possible, and to do so in a way 
@@ -36,5 +46,5 @@ name = "Intro to Kubernetes Docs"
 url = "https://youtu.be/watch?v=pprMgmNzDcw"
 id = "pprMgmNzDcw"
 slides="#"
-where = "KubeCon/CloudNativeCon North America 2020"
+where = "KubeCon + CloudNativeCon North America 2020"
 description = """An overview of Kubernetes SIG Docs. Presented with Tim Bannister, Brad Topol and Irvi Aini."""
