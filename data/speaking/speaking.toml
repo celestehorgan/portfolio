@@ -1,3 +1,38 @@
+[[talk]]
+name = "Flavors of PostgreSQL® and you"
+url = "https://www.youtube.com/watch?v=QUwbyqGbbOQ"
+id = "QUwbyqGbbOQ"
+slides = "#"
+where = "Berlin Buzzwords 2025"
+description = """
+Exploring the broader Postgres ecosystem, particularly the Postgres-compatible databases created by cloud providers, to understand Postgres compatibility more broadly"""
+
+[[talk]]
+name = "Postgres extensions ecosystem: The user POV"
+url = "https://www.youtube.com/watch?v=d6XjsNAUvIw"
+id = "d6XjsNAUvIw"
+slides = "#"
+where = "Postgres Development Conference 2024"
+description = """
+Virtual event discussing the extensions ecosystem from the user POV, with the aim of supporting the developer team"""
+
+[[talk]]
+name = "More than developers: growing your maintainer community"
+url = "https://www.youtube.com/watch?v=eZvnUgyuk8I"
+id = "eZvnUgyuk8I"
+slides = "#"
+where = "FOSS Backstage 2024"
+description = """
+How to nurture and grow maintainer communities in open source projects"""
+
+[[talk]]
+name = "Building On-Ramps for Non-Code Contributors in Open Source"
+url = "https://www.youtube.com/watch?v=1s6imxKnWL4"
+id = "1s6imxKnWL4"
+slides = "#"
+where = "OSS Summit EU 2023"
+description = """
+How to nurture and grow maintainer communities in open source projects"""
 
 [[talk]]
 name = "OSS Docs and How to Scale Them: Common Themes from the CNCF Ecosystem"
