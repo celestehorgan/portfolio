@@ -9,7 +9,7 @@ enableGitInfo = true
 style = "paraiso-dark"
 
 [params]
-description = "Celeste Horgan is a writer, speaker and leader. <br/> She solves documentation problems at scale, and advocates for inclusivity across the industry."
+description = "Celeste is an open source advoate and leader. She has worked in open source software since 2025."
 font_awesome_version = "5.12.0"
 repositoryUrl = "https://github.com/celestehorgan/portfolio"
 contentDir = "/content/"
@@ -24,10 +24,10 @@ images = [""]
 # navbar = "cncf-color.png"
 
 [[params.social]]
-name = "Twitter"
+name = "Bluesky"
 color = "#9D9D9D"
-url = "https://twitter.com/celeste_horgan"
-icon = "fab fa-twitter"
+url = "https://bsky.app/profile/celestehorgan.bsky.social"
+icon = "fab fa-bluesky"
 
 [[params.social]]
 name = "GitHub"
@@ -40,12 +40,6 @@ name = "LinkedIn"
 color = "#9D9D9D"
 url = "https://www.linkedin.com/in/celeste-horgan-b65b5a1a/"
 icon = "fab fa-linkedin"
-
-[[params.social]]
-name = "Email"
-color = "#9D9D9D"
-url = "mailto:hello@celeste.works"
-icon = "fas fa-envelope"
 
 [[params.fonts]]
 name = "Fira Sans"
